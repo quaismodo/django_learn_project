@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.rubric-title {
+    text-align: center;
+}
+
+nav a {
+    border: 2px solid grey;
+    border-radius: 12px;
+    font-weight: 600;
+    background-color: white;
+    padding: 8px 16px;
+    color: black;
+    transition: .2s;
+}
+
+.add {
+    color: green;
+    border-color: green;
+    background-color: greenyellow;
+}
+
+nav a:hover {
+    opacity: .5;
+}
+
+section {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 32px;
+    margin-bottom: 20px;
+}
